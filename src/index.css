@@ -1,13 +1,94 @@
+/* Normalize css */
+@import-normalize;
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Navbar */
+.navbar-main {
+  background-color: #848043 !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+a {
+  text-decoration: none;
+  color: White;
+  font-weight: 600;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-family: "Noticia Text", serif;
+  margin: 0.25em 0;
+}
+
+h5 {
+  font-family: "Noticia Text", serif;
+}
+
+p,
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  display: inline;
+  text-decoration: none;
+}
+
+/* main button */
+.main-btn {
+  font-family: "Noticia Text";
+  color: #256eff;
+  border-color: #256eff;
+}
+
+.main-btn:hover,
+.main-btn:active,
+.main-btn:focus {
+  color: #fff;
+  background-color: #256eff;
+  border-color: #256eff;
+}
+
+/* Section 2 */
+.m-4 {
+  margin: 4.5rem !important;
+}
+/* Cards */
+.card {
+  border: none;
+  border-bottom-color: #848043;
+    border-bottom-style: double;
+    border-bottom-width: medium;
+}
+
+.badge-img {
+  width: 60%;
 }
