@@ -2,6 +2,9 @@ import Layout from "./Components/Layout";
 import Button from "./Components/Button";
 import Card from "./Components/Card";
 import CardGroup from "./Components/CardGroup";
+import Rating from "./Components/Rating";
+import Carousel from "./Components/Carousel";
+import Modal from "./Components/Modal";
 import "./App.css";
 //Import imgs
 import maxiRef from "./utilities/imgs/max-refund.png";
@@ -10,11 +13,14 @@ import waysTax from "./utilities/imgs/ways-to-file.png";
 import max from "./utilities/imgs/max.png";
 import check from "./utilities/imgs/check.png";
 import accurate from "./utilities/imgs/accurate.png";
+// import famOne from "./utilities/imgs/family-1.jpg";
+// import famTwo from "./utilities/imgs/family-2.jpg";
+// import famThree from "./utilities/imgs/family-3.jpg";
 
 function App() {
   return (
     <div className="App container-flex">
-      <Layout className="container-fluid">
+      <Layout className="container">
         <Button></Button>
         <CardGroup cardGroupTitle="Why Kapalo Tax Services?">
           {" "}
@@ -67,6 +73,8 @@ function App() {
             imgClassName="card-img-top mx-auto d-block badge-img"
           ></Card>
         </CardGroup>
+        <Rating></Rating>
+        <Carousel></Carousel>
       </Layout>
     </div>
   );

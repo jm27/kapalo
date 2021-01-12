@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "./Image";
 
 export default function Card({
   title = " Hello ",
@@ -8,11 +9,17 @@ export default function Card({
   imgClassName = "card-img-top",
 }) {
   return (
-    <div className="card h-100">
-      <img src={imgSrc} className={imgClassName} alt={imgAlt} />
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{cardText}</p>
+    <div class="col-sm-4 py-2">
+      <div className="card h-100">
+        <Image
+          imgSrc={imgSrc}
+          imgClassName={imgClassName}
+          imgAlt={imgAlt}
+        ></Image>
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">{cardText}</p>
+        </div>
       </div>
     </div>
   );

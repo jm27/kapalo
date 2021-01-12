@@ -33,6 +33,12 @@ a:active,
 a:focus {
   text-decoration: underline;
 }
+/* FAS */
+.fas:hover,
+.fas:active,
+.fas:focus {
+  color: black;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -65,7 +71,7 @@ ul {
 /* main button */
 .main-btn {
   font-family: "Noticia Text";
-  color: #256eff;
+  color: #000000;
   border-color: #256eff;
 }
 
@@ -85,10 +91,56 @@ ul {
 .card {
   border: none;
   border-bottom-color: #848043;
-    border-bottom-style: double;
-    border-bottom-width: medium;
+  border-bottom-style: double;
+  border-bottom-width: medium;
 }
 
 .badge-img {
   width: 60%;
+}
+/* Rating */
+.checked {
+  color: orange;
+  font-size: xx-large;
+}
+.rating-h {
+  margin-bottom: 1em !important;
+}
+
+/* Carousel */
+.carousel-img {
+  height: 200px;
+  width: 200px;
+  opacity: 0.95;
+}
+
+/* Modal */
+.modal-content {
+  background: #424022;
+}
+/* Footer */
+.footer-h {
+  color: #ffffff;
+}
+
+.fab:hover,
+.fab:active,
+.fab:focus {
+  color: #256eff;
+  text-decoration: underline;
+}
+
+/* Map */
+.img-map {
+  width: 400px;
+}
+/* Media query     */
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .main-img {
+    height: 400px;
+  }
+  .img-map {
+    width: 300px;
+  }
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -30,14 +29,49 @@ export default function Header() {
             <a className="nav-link" href="#home">
               About Us
             </a>
-            <a className="nav-link" href="#home">
-              phone
+            <a
+              className="nav-link"
+              href="tel:520-470-7030"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Give us a call"
+            >
+              <i class="fas fa-phone"></i>
             </a>
-            <a className="nav-link" href="#home">
-              Facebook
+            <a
+              className="nav-link"
+              href="https://www.facebook.com/kapalotax/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Check our facebook page"
+            >
+              <i class="fab fa-facebook-f"></i>
             </a>
-            <a className="nav-link" href="#home">
-              location
+            <a
+              className="nav-link"
+              href="mailto:kapalotaxservices@gmail.com?Subject=Tax"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Send us an E-mail"
+            >
+              <i class="fas fa-at"></i>
+            </a>
+            <a
+              className="nav-link"
+              href="https://www.google.com/search?q=4301+S+6th+Ave+suite+117%2C+Tucson%2C+AZ&oq=4301+S+6th+Ave+suite+117%2C+Tucson%2C+AZ&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Visit us "
+            >
+              <i class="fas fa-map-marker-alt"></i>
             </a>
           </div>
         </div>
