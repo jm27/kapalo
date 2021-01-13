@@ -1,14 +1,16 @@
 import React from "react";
 import Image from "./Image";
+import { Link } from "react-router-dom";
+// map image
 import map from "../utilities/imgs/map.png";
 
 export default function Footer() {
   return (
     <nav className="navbar navbar-main">
       <div class="container-md  d-flex ">
-        <a className="navbar-brand" href="#home">
+        <Link className="navbar-brand" to="/">
           <h1>K</h1>
-        </a>
+        </Link>
 
         <h3 className="footer-h">Need Support ?</h3>
       </div>

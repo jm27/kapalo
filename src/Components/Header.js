@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark navbar-main">
       <div class="container-md  d-flex ">
-        <a className="navbar-brand" href="#home">
+        <Link className="navbar-brand" to="/">
           <h1>K</h1>
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,12 +24,12 @@ export default function Header() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav ">
-            <a className="nav-link" aria-current="page" href="#home">
+            <Link className="nav-link" aria-current="page" to="/">
               Home
-            </a>
-            <a className="nav-link" href="#home">
+            </Link>
+            <Link className="nav-link" to="/about-us">
               About Us
-            </a>
+            </Link>
             <a
               className="nav-link"
               href="tel:520-470-7030"

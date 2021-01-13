@@ -1,21 +1,20 @@
-import Layout from "./Components/Layout";
-import Button from "./Components/Button";
-import Card from "./Components/Card";
-import CardGroup from "./Components/CardGroup";
-import Rating from "./Components/Rating";
-import Carousel from "./Components/Carousel";
-// import "./App.css";
+import Layout from "../Components/Layout";
+import Button from "../Components/Button";
+import Card from "../Components/Card";
+import CardGroup from "../Components/CardGroup";
+import Rating from "../Components/Rating";
+import Carousel from "../Components/Carousel";
 //Import imgs
-import maxiRef from "./utilities/imgs/max-refund.png";
-import expTax from "./utilities/imgs/exp-tax.png";
-import waysTax from "./utilities/imgs/ways-to-file.png";
-import max from "./utilities/imgs/max.png";
-import check from "./utilities/imgs/check.png";
-import accurate from "./utilities/imgs/accurate.png";
+import maxiRef from "../utilities/imgs/max-refund.png";
+import expTax from "../utilities/imgs/exp-tax.png";
+import waysTax from "../utilities/imgs/ways-to-file.png";
+import max from "../utilities/imgs/max.png";
+import check from "../utilities/imgs/check.png";
+import accurate from "../utilities/imgs/accurate.png";
 
-function App() {
+function Home() {
   return (
-    <div className="App container-flex">
+    <div className="Home container-flex">
       <Layout className="container">
         <Button></Button>
         <CardGroup cardGroupTitle="Why Kapalo Tax Services?">
@@ -76,4 +75,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

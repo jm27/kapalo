@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import Modal from "./Components/Modal";
+import Routes from "./Routes";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -10,7 +10,7 @@ ReactDOM.render(
     <>
       <Modal></Modal>
     </>
-    <App />
+    <Routes />
   </React.StrictMode>,
   document.getElementById("root")
 );

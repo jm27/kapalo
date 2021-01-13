@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 /* Navbar */
 .navbar-main {
@@ -133,6 +134,11 @@ ul {
 /* Map */
 .img-map {
   width: 400px;
+}
+
+/* 404 and coming soon images */
+.img-about-soon {
+  max-width: 100%;
 }
 /* Media query     */
 /* On screens that are 600px or less, set the background color to olive */
