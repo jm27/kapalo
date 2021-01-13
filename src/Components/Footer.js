@@ -16,7 +16,17 @@ export default function Footer() {
       </div>
       <div className="justify-content-end container-md d-block text-end">
         <h4 className="footer-h">
-          <i class="fas fa-phone"></i> (520)-470-7030
+        <a
+              className="nav-link"
+              href="tel:520-470-7030"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Give us a call"
+            >
+              <i class="fas fa-phone"></i> (520)-470-7030
+            </a> 
         </h4>
 
         <a
