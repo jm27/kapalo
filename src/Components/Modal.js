@@ -33,7 +33,7 @@ export default function Modal() {
                 data-placement="bottom"
                 title="Check our facebook page"
               >
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fac-modal fa-facebook-f"></i>
               </a>
             </h2>
             <h2 className="footer-h">

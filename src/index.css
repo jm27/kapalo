@@ -115,10 +115,6 @@ ul {
   opacity: 0.95;
 }
 
-/* Modal */
-.modal-content {
-  background: #424022;
-}
 /* Footer */
 .footer-h {
   color: #ffffff;
@@ -127,8 +123,7 @@ ul {
 .fab:hover,
 .fab:active,
 .fab:focus {
-  color: #256eff;
-  text-decoration: underline;
+  color: #256eef;
 }
 
 /* Map */
@@ -139,6 +134,17 @@ ul {
 /* 404 and coming soon images */
 .img-about-soon {
   max-width: 100%;
+}
+
+/* Modal */
+.modal-content {
+  background: #256eef;
+}
+
+.fac-modal:hover,
+.fac-modal:active,
+.fac-modal:focus {
+  color: black;
 }
 /* Media query     */
 /* On screens that are 600px or less, set the background color to olive */
